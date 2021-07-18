@@ -3,8 +3,7 @@
 
 # NOTICE
 DiscoBape has been discontinued and will not be supported any further. 
-It's been a fun experience and I've learned a lot. 
-So until next time, have a good day! 
+You should check out <a href="https://github.com/GoByeBye/Ares">Ares</a> instead!
 
 
 # DiscoBape
